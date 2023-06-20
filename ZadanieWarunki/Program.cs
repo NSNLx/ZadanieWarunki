@@ -202,13 +202,7 @@ case 10:
                 break;
         }
 
-
-
-
         break;
-
-
-
 
         default: Console.WriteLine("nie ma czegos takiego");
         break;
