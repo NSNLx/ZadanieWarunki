@@ -33,6 +33,7 @@ if (liczba0<0)
 {
     Console.WriteLine(liczba0 + " jest ujemna");
 }
+else if (liczba0 == 0) { Console.WriteLine("liczba jest neutralna"); }
 else
 {
     Console.WriteLine(liczba0 + " jest dodatnia");
@@ -42,7 +43,7 @@ else
 case 4:
 Console.WriteLine("Podaj rok");
 int rok = Convert.ToInt32(Console.ReadLine());
-if (rok % 4 == 0)
+if (rok % 4 == 0 || rok%100==0)
 {
     Console.WriteLine(rok + " rok jest przystepny");
 }
